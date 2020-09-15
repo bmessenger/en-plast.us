@@ -13,7 +13,7 @@
 
 <?php if (have_posts()) : ?>
 
-	<span class="hr"></span>
+	<span class="hr" style="margin-top: 0;"></span>
 
 	<?php if ( get_field('feed_title', 10) ) : ?>
 		<div class="container">
@@ -29,7 +29,7 @@
 		</div> -->
 
 		<div class="ig-feed" id="ig_feed">
-			<?php echo do_shortcode('[instagram-feed widthunit=% width=100]'); ?>
+			<?php echo do_shortcode('[instagram-feed widthunit=% width=100 type=user user="enplasttechnology"]'); ?>
 		</div>
 	</div>
 

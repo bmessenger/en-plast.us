@@ -293,7 +293,7 @@
 		}
 	}
 	.content-wrap.resource-blocks {
-		padding: 120px 0;
+		padding: 60px 0;
 	}
 
 }
@@ -518,7 +518,7 @@
 		position: absolute;
 		z-index: 1;
 	    left: -281px;
-		top: 180px;
+		top: 560px;
 	}
 	@include breakpoint(md) {
 		.ep-map img {
