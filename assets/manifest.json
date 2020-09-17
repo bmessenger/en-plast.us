@@ -17,6 +17,16 @@
         "scripts/customizer.js"
       ]
     },
+    "lightbox.js": {
+      "files": [
+        "scripts/lightbox.js"
+      ]
+    },
+    "images": {
+      "folders": [
+        "scripts/images"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
     }

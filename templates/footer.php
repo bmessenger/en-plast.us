@@ -40,5 +40,3 @@
 	</footer>
 
 <?php endif; ?>
-
-
