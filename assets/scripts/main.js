@@ -206,5 +206,9 @@
 	  });
   });
 
+  $(function () {
+	  $('a[data-toggle="tooltip"]').tooltip();
+	});
+
 
 })(jQuery); // Fully reference jQuery after this point.

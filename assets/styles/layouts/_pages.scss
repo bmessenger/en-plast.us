@@ -568,6 +568,17 @@
 	.bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
 	    border-right-color: #00a76f !important;
 	}
+
+	.gi+.tooltip > .tooltip-inner {
+		background-color: #000;
+		white-space: pre-wrap;
+		text-align: left;
+		font-size: 12px;
+		line-height: 1.3em;
+		border-radius: 0;
+		max-width: 250px !important;
+		padding: 3px 25px 3px 8px;
+	}
 }
 
 // CTA Green

@@ -26,11 +26,16 @@ use Roots\Sage\Wrapper;
         </aside><!-- /.sidebar -->
       <?php endif; ?>
     </div><!-- /.wrap -->
+
+
+
     <?php
       do_action('get_footer');
       get_template_part('templates/footer');
       wp_footer();
     ?>
+
     <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri() ?>/dist/scripts/lightbox-88d07578c5.js" ></script>
   </body>
 </html>
