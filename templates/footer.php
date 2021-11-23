@@ -11,6 +11,7 @@
 			    <p>&nbsp;</p>
 			</div>
 			<div class="col-lg-6">
+			    <h3 class="white-txt" style="font-size: 32px;text-align:center;">News</h3>
 				<?php echo do_shortcode('[instagram-feed cols=4]'); ?>
 			</div>
 		</div>

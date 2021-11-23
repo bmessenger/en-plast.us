@@ -33,3 +33,5 @@ require_once('lib/class-wp-bootstrap-navwalker.php');
 register_nav_menus( array(
   'primary_navigation' => __( 'Primary Navigation', 'Rukh' ),
 ) );
+
+add_filter( 'wp_default_editor', create_function( '', 'return "html";' ) );

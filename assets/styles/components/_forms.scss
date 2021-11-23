@@ -29,7 +29,7 @@
     margin-top: 0 !important;
   }
 
-  input[type=text],
+  input[type="text"],
   textarea {
     border: 2px solid #545454;
     border-radius: 3px;
@@ -43,7 +43,53 @@
     width: 90% !important;
   }
 
-  .gform_footer input.button, .gform_footer input[type=submit], .gform_page_footer input.button, .gform_page_footer input[type=submit] {
+  .gform_footer input.button,
+  .gform_footer input[type="submit"],
+  .gform_page_footer input.button,
+  .gform_page_footer input[type="submit"] {
     @extend .btn;
+  }
+}
+.drainage-calc {
+  .input-group {
+    label {
+      width: 250px;
+      padding-right: 10px;
+    }
+    input {
+      width: 160px;
+    }
+    p {
+      max-width: 700px;
+    }
+    &.inline-group {
+      margin-bottom: 15px;
+
+      input {
+        display: inline-block;
+      }
+    }
+    @media (min-width: 992px) and (max-width: 1199px) {
+      p {
+        max-width: 500px;
+      }
+    }
+    @media (max-width: 991px) {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 10px;
+
+      label {
+        display: block;
+        width: 100%;
+      }
+      input {
+        display: block;
+      }
+      p {
+        display: block;
+        margin-bottom: 0;
+      }
+    }
   }
 }
