@@ -25,7 +25,7 @@
         <h2 style="font-size: 36px;color: #00a76f;" class="mb-2 green-txt">Input Values</h2>
         <form action="shockDrain_calc" class="drainage-calc">
 
-       
+            <h2 class="mb-2 mt-4" style="color: #000;">Field Conditions</h2>
           <div class="d-lg-flex d-block justify-content-start align-items-center input-group">
                 <label for="Drainage_Length">Drainage Length, L (ft)</label>
                 <input name="Drainage_Length" id="Drainage_Length" value="100">
