@@ -22,7 +22,7 @@
         <p>&nbsp;</p>
         <div class="d-block d-lg-none my-4"><em>*We recommend using the below form while viewing from a desktop display.</em></div>
 
-        <h2 style="font-size: 36px;color: #000;" class="mb-2">Input Values</h2>
+        <h2 style="font-size: 36px;color: #00a76f;" class="mb-2 green-txt">Input Values</h2>
         <form action="shockDrain_calc" class="drainage-calc">
 
        
@@ -47,7 +47,7 @@
                 <input name="Runoff" id="Runoff" value="0.4">
                 <p class="pl-lg-5 pl-0">(1-all runoff; 0-zero runoff)</p>
             </div>
-            <h2 class="mb-2 mt-4">Rainfall Properties</h2>
+            <h2 class="mb-2 mt-4" style="color: #000;">Rainfall Properties</h2>
             <div class="d-lg-flex d-block justify-content-start align-items-center input-group">
                 <label for="Rainfall_frequency">Rainfall frequency, f (years) </label>
                 <input name="Rainfall_frequency" id="Rainfall_frequency" value="10">
@@ -66,7 +66,7 @@
                 <p class="pl-lg-5 pl-0">Intensity of the rain for the selected event duration and frequency <a href="https://hdsc.nws.noaa.gov/hdsc/pfds"> NOAA Precipitation Frequency Data Server</a></p>
             </div>
 
-            <h2 class="mb-2 mt-4">ShockDrain Properties</h2>
+            <h2 class="mb-2 mt-4" style="color: #000;">ShockDrain Properties</h2>
 
             <div class="d-lg-flex d-block justify-content-start align-items-center input-group">
                 <label for="Thickness_D1_mils">Thickness, D<sub>1</sub> (mils) </label>
@@ -86,7 +86,7 @@
                 <p class="pl-lg-5 pl-0">Volume of voids percent to the total volume which will enable the water to flow through</p>
             </div>
 
-           <h2 class="mb-2 mt-4">Leveling Stone</h2>
+           <h2 class="mb-2 mt-4" style="color: #000;">Leveling Stone</h2>
 
             <div class="d-lg-flex d-block justify-content-start align-items-center input-group">
                 <label for="hydraulic_conductivity_k2">Hydraulic Conductivity, k<sub>2</sub>     (cm/sec)</label>
@@ -112,8 +112,8 @@
                 <p class="pl-lg-5 pl-0">Represents the percent of voids occupied by water initially before the system be in operation. 100% is fully saturated</p>
             </div>
             
-            <h2 style="font-size: 36px;color: #000;" class="mb-2">Output</h2>
-            <h2 class="mb-2">Drainage Capacity</h2>
+            <h2 style="font-size: 36px;color: #00a76f;" class="mb-2 green-txt">Output</h2>
+            <h2 class="mb-2 black-text" style="color: #000;">Drainage Capacity</h2>
 
             <div class="d-lg-flex d-block justify-content-start align-items-center input-group inline-group">
                 <label for="Infiltrated_flow_rate">Infiltrated flow rate per unit width, Q<sub>in</sub></label>
@@ -140,7 +140,7 @@
                 <div><input name="factor_of_safety" id="factor_of_safety" disabled></div>
             </div>
 
-            <h2 class="mb-2 mt-4">Time to Drain / using ShockDrain</h2>
+            <h2 class="mb-2 mt-4" style="color: #000;">Time to Drain / using ShockDrain</h2>
 
             <div class="d-lg-flex d-block justify-content-start align-items-center input-group inline-group">
                 <label for="slope_factor_1">Slope factor, S<sub>1</sub></label>
@@ -162,7 +162,7 @@
                 <div><input name="time_to_drain_1" id="time_to_drain_1" disabled> hours</div>
             </div>
             
-            <h2 class="mb-2 mt-4">Time to Drain / without ShockDrain</h2>
+            <h2 class="mb-2 mt-4" style="color: #000;">Time to Drain / without ShockDrain</h2>
 
             <div class="d-lg-flex d-block justify-content-start align-items-center input-group inline-group">
                 <label for="slope_factor_2">Slope factor, S<sub>2</sub></label>
