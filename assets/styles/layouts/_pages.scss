@@ -594,10 +594,64 @@
     max-width: 250px !important;
     padding: 3px 25px 3px 8px;
   }
+  h2.shockpad {
+    margin-top: 40px;
+
+    @include breakpoint(md) {
+      margin-top: 90px;
+    }
+  }
+  .shockdrain-features {
+    margin-top: 80px;
+
+    @include breakpoint(md) {
+      margin-top: 150px;
+    }
+  }
+}
+/* About - Calculator Subscribe */
+.dc-subscribe {
+  padding: 50px;
+  background-color: #333332;
+  margin-bottom: 80px;
+
+  .gform_wrapper.gravity-theme {
+    width: 100%;
+
+    .gfield input.large,
+    .gform_footer input {
+      width: 100% !important;
+      max-width: 100% !important;
+      text-align: left;
+    }
+    .gform_footer {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+/* Landing Page - Calculator Subscribe */
+body.drainage-calculator {
+  .content-wrap {
+    background-color: #121212;
+  }
+  .gform_wrapper.gravity-theme {
+    width: 100%;
+
+    .gfield input.large,
+    .gform_footer input {
+      width: 100% !important;
+      max-width: 100% !important;
+      text-align: left;
+    }
+    .gform_footer {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
 }
 
 // CTA Green
-
 .bottom-contact {
   color: #fff;
   padding: 50px;
