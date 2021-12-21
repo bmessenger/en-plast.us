@@ -15,9 +15,9 @@
   width: 100%;
   padding-top: 0;
   background: $bg-dark !important;
-  transition: background-color .25s ease-out;
+  transition: background-color 0.25s ease-out;
   min-height: 75px;
-  
+
   &.at-rest {
     @include breakpoint(md) {
       background: transparent !important;
@@ -27,7 +27,6 @@
   .navbar-nav .nav-item {
     margin: 0 0 0 25px;
   }
-
   .navbar-nav .nav-item .nav-link {
     padding: 5px 0;
     text-transform: uppercase;
@@ -38,7 +37,9 @@
     transition: color 0.5s ease;
     border-bottom: 2px solid transparent;
   }
-
+  .navbar-nav .nav-item.green-text .nav-link {
+    color: #00a76f;
+  }
   .navbar-nav .nav-item .nav-link:hover {
     color: $green;
   }
@@ -46,7 +47,6 @@
   .navbar-nav .nav-item.active .nav-link {
     border-bottom: 2px solid $green;
   }
-   
 }
 
 .navbar-toggler {
